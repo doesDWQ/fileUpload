@@ -1,0 +1,1 @@
+docker run -d -it --name fileUpload -v $PWD:/opt/www/ -w /opt/www -p 9501:80  hyperf/hyperf:7.4-alpine-v3.11-swoole
